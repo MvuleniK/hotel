@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 // import './App.css';
 // import Loginuser from './components/Loginuser';
-import Homepage  from './components/Homepage';
+// import Homepage  from './components/Homepage';
+// import Registeruser from './components/Registeruser';
+import RoomA from './components/rooms/RoomA';
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -9,7 +11,11 @@ function App() {
     <div className="App">
 
       {/* <Loginuser/> */}
-      <Homepage/>
+      {/* <Homepage/> */}
+      {/* <Registeruser/> */}
+
+      {/* rooms pages */}
+      <RoomA/>
 
 
     </div>

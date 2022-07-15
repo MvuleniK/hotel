@@ -1,6 +1,8 @@
 import React from 'react';
 import './Homepage.css';
-import Logo from "../assest/Logo.png"
+import Logo from "../assest/Logo.png";
+import Swiper from './swiper/swiper';
+// import { Autoplay } from 'swiper';
 
 function Homepage() {
   return (
@@ -39,12 +41,20 @@ function Homepage() {
         <div className='hotel-content'>
 
             <div className='hotel-content-gallery'>
-                <h2>
-                    Booking available at the Rand Hotel
-                </h2>
-                <h3>
-                    Find and book unique accommodation
-                </h3>
+
+                <div className='hotel-writing'>
+                    <h2>
+                        Booking available at the Rand Hotel
+                    </h2>
+
+                    <h3>
+                        Find unique accommodation
+                    </h3>
+                </div>
+                <div className='swiper-container'>
+                    {/* Auto gallery goes here */}
+                    <Swiper/>
+                </div>
             </div>
 
         </div>
@@ -73,28 +83,28 @@ function Homepage() {
 
                     <div className='room2'>
                     <h5>
-                            Luxury room
+                            Business room
                         </h5>
                         <h6>
-                            Luxury suite
+                            Business suite
                         </h6>
                     </div>                    
 
                     <div className='room3'>
                     <h5>
-                            Luxury room
+                            Economy room
                         </h5>
                         <h6>
-                            Luxury suite
+                            Economy suite
                         </h6>
                     </div>
 
                     <div className='room4'>
                     <h5>
-                            Luxury room
+                            Family room
                         </h5>
                         <h6>
-                            Luxury suite
+                            Family suite
                         </h6>
                     </div>
             </div>
@@ -113,7 +123,9 @@ function Homepage() {
         </div>
 
         <div className='hotel-footer '>
-            <div className='uppper-hotel-footer '>
+            <div className='grid-container'>
+
+
                 <div className='uppper-hotel-footer-1'>
                     <h1>LOGO</h1>
                 </div>
@@ -161,4 +173,4 @@ function Homepage() {
   )
 }
 
-export default Homepage
+export default Homepage;

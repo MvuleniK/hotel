@@ -101,7 +101,7 @@
 
 
 .hotel-content {
-    background-color: brown;
+    /* background-color: brown; */
     width: 1440px;
     height: 624px;
     position: absolute;
@@ -112,7 +112,30 @@
 .hotel-content .hotel-content-gallery{
     position:absolute;
     top:2rem;
-    left:5rem
+    left:0rem;
+    
+}
+
+.hotel-content .hotel-content-gallery .hotel-writing {
+    position:absolute;
+    top:3rem;
+    left:4rem;
+    z-index: 3;
+    color: #FDFFFC;
+    width: 563px;
+}
+
+.hotel-content .hotel-content-gallery .hotel-writing h2 {
+    color: #FDFFFC;
+}
+
+
+.main-container .hotel-content .hotel-content-gallery .swiper-container{
+    width: 1440px;
+    height: 624px;
+    position: absolute;
+    top:-2rem;
+    z-index:2;
 }
 
 .hotel-content h2{
@@ -185,6 +208,11 @@
     top:4rem;
     margin-right: 2rem;
     background-color:#FDFFFC;
+    color: #FDFFFC;
+    background-image: url("../assest/nav/hotel/luxury.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 700px; 
     border-radius: 8px;
 }
 
@@ -199,6 +227,12 @@
     margin-right: 2rem;
     background-color:#FDFFFC;
     border-radius: 8px;
+    color: #FDFFFC;
+    background-image: url("../assest/nav/hotel/Business.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 700px; 
+
 }
 
 .main-container .booking-room .booking-room-suite .room3 {
@@ -212,6 +246,11 @@
     margin-right: 2rem;
     background-color:#FDFFFC;
     border-radius: 8px;
+    color: #FDFFFC;
+    background-image: url("../assest/nav/hotel/economy.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 700px; 
 }
 
 .main-container .booking-room .booking-room-suite .room4 {
@@ -225,13 +264,18 @@
     margin-right: 2rem;
     background-color:#FDFFFC;
     border-radius: 8px;
+    color: #FDFFFC;
+    background-image: url("../assest/nav/hotel/family.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 700px; 
 }
 
 .main-container .booking-room .booking-room-suite .room1 h5{
     position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 17px;
     line-height: 48px;
     margin-top:15em;
@@ -255,7 +299,7 @@
     position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 17px;
     line-height: 48px;
     margin-top:15em;
@@ -277,7 +321,7 @@
     position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 17px;
     line-height: 48px;
     margin-top:15em;
@@ -300,7 +344,7 @@
     position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 17px;
     line-height: 48px;
     margin-top:15em;
@@ -325,9 +369,13 @@
     height: 395px;
     /* left: 15px;
     top: 12px; */
-    background-color: cadetblue;
     top:68%;
     border-radius: 12px;
+    background-image: url("../assest/nav/hotel/offer2.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 1300px; 
+    
 }
 
 .main-container .booking-room .hotel-banner h1{
@@ -357,40 +405,51 @@
     
 }
 
-.main-container .hotel-footer .upper-hotel-footer {
+.main-container .hotel-footer .grid-container {
 
     display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+
 }
 
 
 
-.main-container .hotel-footer .upper-hotel-footer-1{
+.main-container .hotel-footer .grid-container .upper-hotel-footer-1 h1{
 
-    grid-column-start: 1;
-    grid-column-end: 3;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    position: absolute;
+    top:10rem;
 }
 
-.main-container .hotel-footer .upper-hotel-footer-2{
-    align-content: center;
-    flex-direction: column;
+
+
+.main-container .hotel-footer .grid-container .upper-hotel-footer-2 ul {
+    /* align-content: center;
+    flex-direction: column; */
     padding-top: 5px;
+    list-style-type: none;
+
 
 }
 
 .main-container .hotel-footer .upper-hotel-footer-3{
-    align-content: center;
-    flex-direction: column;
+
     padding-top: 5px;
 
 }
 
 .main-container .hotel-footer .upper-hotel-footer-4{
-    align-content: center;
-    flex-direction: column;
+
     padding-top: 5px;
 
 }
 
+
+
+/* copyright */
 
 .main-container .hotel-footer .lower-hotel-footer h5{
     position:absolute;

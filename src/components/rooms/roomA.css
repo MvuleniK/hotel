@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: local("MontserratMedium"),url("../rooms/font/Montserrat-Medium.ttf") format("opentype");
+    /* font-weight:200; */
+}
+
+.main-container {
+    position: relative;
+    width: 1440px;
+    height: 2452px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+
+
+/* navigation bar, always important! */
+
+
+.main-container .navigation {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 96.94%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* .main-container .navigation .list{
+
+    position: absolute;
+
+} */
+
+
+/* .main-container .navigation nav li {
+    display: flex;
+    flex-direction:row;
+} */
+
+
+.main-container .navigation .list{
+    padding-left: 0px;
+    padding-right: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.main-container .navigation #img-logo{
+    height:auto;
+    width: 300px;
+    position: relative;
+    right:12em;
+    color: #FDFFFC;
+}
+
+.main-container .navigation #button1{
+    padding-left: 0px;
+    border-radius:10px;
+    margin-left:5rem;
+    border-style: solid;
+    padding: 14px 24px;
+    border-color:#E8E9ED;
+    border-width: 1px;
+    
+}
+
+.main-container .navigation #button1:hover{
+    background-color: #FCB331 ;
+}
+
+.main-container .navigation .button1:hover{
+    color:#FDFFFC;
+}
+
+
+.main-container .navigation #button2{
+    padding-left: 0px;
+    border-radius:10px;
+    margin-left:1rem;
+    border-style: solid;
+    padding: 14px 24px;
+    border-color:#E8E9ED;
+    border-width: 1px;
+}
+
+.main-container .navigation #button2:hover{
+    background-color: #FCB331 ;
+}
+
+.main-container .navigation .button2:hover{
+    color:#FDFFFC;
+}
+
+
+
+/* Header content */
+
+
+.main-container .main-content {
+    position: absolute;
+    width:1296px;
+    height: 540px;
+    background-color: #FCB331;
+    left:72px;
+    right:72px;
+    top:123px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(194, 198, 204, 0.6);
+    border-radius: 10px;
+}
+
+.main-container .main-content .Room-features {
+    position: absolute;
+    width: 45%;
+    height: 30%;
+    left: 55%;
+    top: 20%;
+    /* background-color: aqua; */
+}
+
+.main-container .main-content .Room-features p {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.main-container .main-content h1 {
+    position: absolute;
+    left:55%;
+}
+.main-container .main-content h2 { 
+    position: absolute;
+    left:55%;
+    top:10%;
+} 
+
+.main-container .main-content h3 { 
+    position: absolute;
+    left:1%;
+    top:-10%;
+} 
+
+.main-container .main-content .Room-description {
+    position: absolute;
+    width: 45%;
+    height: 30%;
+    left: 55%;
+    top: 50%;
+    /* background-color: blueviolet; */
+}
+
+.main-container .main-content .Room-description h3 {
+    position: absolute;
+    left:1%;
+    top:-10%;
+}
+
+.main-container .main-content .Room-description p {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+.main-container .main-content .room-image .Luxury{
+    position: absolute;
+    width: 45%;
+    height: 90%;
+    left:5%;
+    top: 7%;
+    border-radius: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(194, 198, 204, 0.6);
+    border-radius: 10px;
+}
+
+
+/*Booking content for user */
+
+
+.main-container .booking-content {
+    position: absolute;
+    width: 80%;
+    height: 35%;
+    left: 140px;
+    top: 719px;
+    /* background-color: aquamarine; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(194, 198, 204, 0.6);
+    border-radius: 10px;
+}
+
+
+
+.main-container .booking-content #input-fields1 {
+    position: absolute;
+    width: 15%;
+    height: 25.84px;
+    left: 10%;
+    top: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #484848;
+}
+
+.main-container .booking-content .input-fields1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 353px;
+    height: 57.43px;
+    left: 10%;
+    top: 15%;
+    background: #FFFFFF;
+    border: 1px solid #C2C6CC;
+    border-radius: 10px;
+}
+
+
+
+.main-container .booking-content .input-fields2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 353px;
+    height: 57.43px;
+    left: 260px;
+    top: 50%;
+    background: #FFFFFF;
+    border: 1px solid #C2C6CC;
+    border-radius: 10px;
+}
+
+.main-container .booking-content .input-fields3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 353px;
+    height: 57.43px;
+    left: 60%;
+    top: 50%;
+    background: #FFFFFF;
+    border: 1px solid #C2C6CC;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
