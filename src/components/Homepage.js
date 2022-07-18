@@ -3,6 +3,7 @@ import './Homepage.css';
 import Logo from "../assest/Logo.png";
 import Swiper from './swiper/swiper';
 // import { Autoplay } from 'swiper';
+import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
@@ -15,24 +16,26 @@ function Homepage() {
                 </div>
                 
                 <div  className ='list' >
-                    <h3>Home</h3>
+                    <Link to= '/homepage'> <h3>Home</h3> </Link>
                 </div>    
                 <div className ='list' >
-                    <h3>Booking</h3>
+                    <Link to ='/roomA'> <h3>Booking</h3> </Link>
                 </div>
                 
                 <div  className ='list' >
-                    <h3>My Account</h3>
+                    <Link to= '/loginuser'><h3>My Account</h3></Link>
                 </div>
                 <div  className ='list'  >
                     <h3>Admin</h3>
                 </div>
 
                 <div  className ='list'  >
+                    {/* <Link to ='/loginuser' ></Link> */}
                     <h3 className='button1' id='button1' >Log In</h3>
                 </div>
 
                 <div  className ='list'  >
+                {/* <Link to ='/registeruser' ></Link> */}
                     <h3 className='button2' id='button2'>Sign Up</h3>
                 </div>
 

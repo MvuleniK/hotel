@@ -1,0 +1,22 @@
+
+.main-container1 {
+
+    /* Home Page */
+    position: absolute;
+    width: 1440px;
+    height: 900px; 
+    /* White */
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.main-container1 .side-bar {
+    position: absolute;
+    left: -40%;
+    top: 1%;
+    bottom: 0%;
+}
