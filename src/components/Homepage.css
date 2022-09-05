@@ -5,11 +5,11 @@
 }
 
 
-.main-container{
+.main-container {
 
     /* Home Page */
     position: absolute;
-    width: 1440px;
+    width: 1444px;
     height: 2452px; 
     /* White */
     background: #FDFFFC;
@@ -17,11 +17,12 @@
     justify-content: center;
     flex-direction: column;
     display: flex;
-
+    left:5%;
 }
 
 .main-container .navigation {
-    position: absolute;
+    /* position: absolute; */
+    /* position:relative; */
     left: 0%;
     right: 0%;
     top: 0%;
@@ -55,9 +56,9 @@
 
 .main-container .navigation #img-logo{
     height:auto;
-    width: 300px;
+    width: 100px;
     position: relative;
-    right:12em;
+    right:10em;
     color: #FDFFFC;
 }
 

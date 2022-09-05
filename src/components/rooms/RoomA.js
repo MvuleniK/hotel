@@ -2,6 +2,7 @@ import React from 'react';
 import './roomA.css';
 import Logo from "../rooms/assest/Logo.png";
 import Luxury from '../assest/nav/hotel/luxury.png';
+import Allroom from '../Allroom';
 
 function roomA() {
   return (
@@ -42,65 +43,62 @@ function roomA() {
         {/* Header content */}
         <div className='main-content'>
 
-          <div className='room-image'>
-            <img className='Luxury' src={Luxury} alt="img1" />
-        </div>  
-          <h1>Type of Room: Luxury</h1>
-          <h2 className='nights'>Price per night: R5000.00</h2>
-          <div className='Room-features'>
-            <h3> Room features</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco 
-            </p>
-          </div>
-            <div className='Room-description'>
-            <h3> Room description</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco 
-            </p>
-            </div>
+        <Allroom/>
 
         </div>
+
+
 
         {/* Booking content */}
         <div className='booking-content'>
 
-        <label id='input-fields1'>Number of Guests
-        </label>
-        <input  
-                label="Number of Guests"
-                placeholder=""
-                name="text"
-                type="number"
-                className="input-fields1"
-        />
 
-        <label>Date Checkin
-        <input  
-                label="Number of Guests"
-                placeholder=""
-                name="text"
-                type="date"
-                className="input-fields2"
-        />
+        <div className='column-1'>
+                    <label id='input-fields1'>Number of Guests</label>
+                    <input  
+                            label="Number of Guests"
+                            placeholder=""
+                            name="text"
+                            type="number"
+                            className="input-fields1"
+                    />
 
+                    <label id='input-fields2'>Date Checkin</label>  
+                    <input  
+                            label="Number of Guests"
+                            placeholder=""
+                            name="text"
+                            type="date"
+                            className="input-fields2"
+                    />            
+        </div>    
 
-        </label>
-
-
-        <label>Date Checkin
-        <input  
-                label="Number of Guests"
-                placeholder=""
-                name="text"
-                type="date"
-                className="input-fields3"
-        />
+        <div className='column-2'>
 
 
-        </label>
+        <label id='input-fields4'> Type of Room</label>
+        <select name="Type of Room" className='input-fields4'>
+               <option value="">--Please select the type of room-</option>
+               <option value="Luxury">Luxury</option>
+               <option value="Family">Family</option>
+               <option value="Economy">Economy</option>
+           </select>
+
+
+                <label id='input-fields3' >Date Checkout </label>
+                <input  
+                        label="Number of Guests"
+                        placeholder=""
+                        name="text"
+                        type="date"
+                        className="input-fields3"
+                />
+        </div>
+
+
+
+
+
 
 
 

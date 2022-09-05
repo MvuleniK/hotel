@@ -1,0 +1,131 @@
+/* @font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: local("MontserratMedium"),url("../rooms/font/Montserrat-Medium.ttf") format("opentype");
+    font-weight:200;
+} */
+
+
+
+.main-content {
+    /* display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    margin: 5px; */
+    /* width: 500px; */
+    /* height:300px; */
+    /* border: 1px solid rgb(245, 245, 245);
+    
+    padding: 10px;
+    align-items: center; */
+    justify-content: space-evenly;
+    position: absolute;
+    width:1296px;
+    height: 540px;
+    /* background-color: #FCB331; */
+    left:-40px;
+    right:50px;
+    top:3%;
+    /* background: #FFFFFF; */
+    /* box-shadow: 0px 0px 16px #c2c6cc99; */
+    box-shadow: 0px 0px 5px 0px grey;
+    border-radius: 10px;
+}
+
+
+.main-content .room-features {
+    position: absolute;
+    width: 45%;
+    height: 30%;
+    left: 55%;
+    top: 20%;
+}
+
+
+.main-content .room-features p {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* justify-content: center; */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.main-content h1 {
+    position: absolute;
+    left:55%;
+}
+.main-content h2 { 
+    position: absolute;
+    left:55%;
+    top:10%;
+} 
+
+.main-content h3 { 
+    position: absolute;
+    left:1%;
+    top:-10%;
+} 
+
+.main-content .room-description {
+    position: absolute;
+    width: 45%;
+    height: 30%;
+    left: 55%;
+    top: 50%;
+}
+
+.main-content .room-description h3 {
+    position: absolute;
+    left:1%;
+    top:-10%;
+}
+
+.room-description p {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+.main-content .room-image img {
+    position: absolute;
+    width: 45%;
+    height: 90%;
+    left:5%;
+    top: 7%;
+    border-radius: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(194, 198, 204, 0.6);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* .product-details {
+    width: 70%;
+}
+
+.producttitle {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.price-container {
+    display: flex;
+    padding:0px;
+    margin: 0px;
+    flex-direction: column;
+} */

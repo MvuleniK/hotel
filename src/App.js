@@ -7,6 +7,7 @@ import RoomA from './components/rooms/RoomA';
 import Addproduct from './components/Addproduct';
 import Dashboard from './components/Dashboard';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Allroom from './components/Allroom';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path = '/loginuser' element = {<Loginuser/>}/>
           <Route exact path = '/roomA' element = {<RoomA/>}/>
           <Route exact path = '/addproduct' element = {<Addproduct/>}/>
+          <Route exact path = '/allRoom' element = {<Allroom/>}/>
           <Route exact path = '/dashboard' element = {<Dashboard/>}/>
           
 

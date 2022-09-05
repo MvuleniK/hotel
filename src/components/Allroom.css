@@ -1,0 +1,25 @@
+
+
+
+
+/* .allproductpage .heading {
+    background-color: #f0f0f0;
+    background-color: blue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .allproductpage .heading p {
+    font-size: 50px;
+} */
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

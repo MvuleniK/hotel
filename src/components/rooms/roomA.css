@@ -101,29 +101,30 @@
 /* Header content */
 
 
-.main-container .main-content {
+/* .main-container .main-content {
     position: absolute;
     width:1296px;
     height: 540px;
     background-color: #FCB331;
     left:72px;
     right:72px;
-    top:123px;
+    top:100px;
     background: #FFFFFF;
     box-shadow: 0px 0px 16px rgba(194, 198, 204, 0.6);
     border-radius: 10px;
-}
+} */
 
-.main-container .main-content .Room-features {
+
+
+/* .main-container .main-content .Room-features {
     position: absolute;
     width: 45%;
     height: 30%;
     left: 55%;
     top: 20%;
-    /* background-color: aqua; */
-}
+} */
 
-.main-container .main-content .Room-features p {
+/* .main-container .main-content .Room-features p {
     margin-top: 40px;
     margin-left: 10px;
     margin-right: 10px;
@@ -157,7 +158,6 @@
     height: 30%;
     left: 55%;
     top: 50%;
-    /* background-color: blueviolet; */
 }
 
 .main-container .main-content .Room-description h3 {
@@ -176,10 +176,10 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-}
+} */
 
 
-.main-container .main-content .room-image .Luxury{
+/* .main-container .main-content .room-image .Luxury{
     position: absolute;
     width: 45%;
     height: 90%;
@@ -189,7 +189,10 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 16px rgba(194, 198, 204, 0.6);
     border-radius: 10px;
-}
+} */
+
+
+
 
 
 /*Booking content for user */
@@ -199,7 +202,7 @@
     position: absolute;
     width: 80%;
     height: 35%;
-    left: 140px;
+    left: 80px;
     top: 719px;
     /* background-color: aquamarine; */
     background: #FFFFFF;
@@ -208,8 +211,14 @@
 }
 
 
+.main-container .booking-content .column-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-.main-container .booking-content #input-fields1 {
+
+.main-container .booking-content .column-1  #input-fields1 {
     position: absolute;
     width: 15%;
     height: 25.84px;
@@ -223,7 +232,7 @@
     color: #484848;
 }
 
-.main-container .booking-content .input-fields1{
+.main-container .booking-content .column-1  .input-fields1{
     box-sizing: border-box;
     position: absolute;
     width: 353px;
@@ -237,30 +246,93 @@
 
 
 
-.main-container .booking-content .input-fields2{
+.main-container .booking-content .column-1 .input-fields2 {
     box-sizing: border-box;
     position: absolute;
     width: 353px;
     height: 57.43px;
-    left: 260px;
-    top: 50%;
-    background: #FFFFFF;
+    left: 10%;
+    top: 40%;
+    /* background: #FCB331; */
     border: 1px solid #C2C6CC;
     border-radius: 10px;
 }
 
-.main-container .booking-content .input-fields3{
+.main-container .booking-content .column-1 #input-fields2 {
+    position: absolute;
+    width: 15%;
+    height: 25.84px;
+    left: 10%;
+    top: 35%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #484848;
+}
+
+
+
+.main-container .booking-content .column-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.main-container .booking-content .column-2 .input-fields3 {
     box-sizing: border-box;
     position: absolute;
     width: 353px;
     height: 57.43px;
     left: 60%;
-    top: 50%;
+    top: 40%;
     background: #FFFFFF;
     border: 1px solid #C2C6CC;
     border-radius: 10px;
 }
 
+.main-container .booking-content .column-2 #input-fields3 {
+    position: absolute;
+    width: 15%;
+    height: 25.84px;
+    left: 60%;
+    top: 35%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #484848;
+}
+
+
+.main-container .booking-content .column-2 #input-fields4 {
+    position: absolute;
+    width: 15%;
+    height: 25.84px;
+    left: 60%;
+    top: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #484848;
+}
+
+.main-container .booking-content .column-2 .input-fields4 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 353px;
+    height: 57.43px;
+    left: 60%;
+    top: 15%;
+    background: #FFFFFF;
+    border: 1px solid #C2C6CC;
+    border-radius: 10px;
+}
 
 
 

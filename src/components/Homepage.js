@@ -76,12 +76,14 @@ function Homepage() {
             </div>
             <div className='booking-room-suite' >
                     <div className='room1'>
+                    <Link to ='/roomA'>  
                         <h5>
                             Luxury room
                         </h5>
                         <h6>
                             Luxury suite
                         </h6>
+                    </Link>
                     </div>
 
                     <div className='room2'>

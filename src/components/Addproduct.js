@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react';
 import {auth,db, storage} from '../firebase';
 import {getDownloadURL, ref, uploadBytes} from 'firebase/storage';
 import { collection, getDocs, query, where, doc, updateDoc, addDoc} from 'firebase/firestore';
+import './Addproduct.css';
 
 function Addproduct() {
   
@@ -42,12 +43,12 @@ function Addproduct() {
             e.preventDefault();
 
             const storageRef = ref(storage, 'room-images${roomtypes.toUpperCase()}/${Date.now()}')
-            // console.log(storageRef._location.path)
+            console.log(storageRef._location.path)
 
             uploadBytes(storageRef,productimage)
                 .then(() =>{
                   getDownloadURL(storageRef).then(url => {
-                    addDoc(collection(db,"room-types"),{
+                    addDoc(collection(db,"room-${roomtype}"),{
                       productitle,
                       price,
                       features,
