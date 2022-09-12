@@ -8,6 +8,7 @@ import Addproduct from './components/Addproduct';
 import Dashboard from './components/Dashboard';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Allroom from './components/Allroom';
+import Payment from './components/Payment';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route exact path = '/addproduct' element = {<Addproduct/>}/>
           <Route exact path = '/allRoom' element = {<Allroom/>}/>
           <Route exact path = '/dashboard' element = {<Dashboard/>}/>
+          <Route exact path = '/payment' element = {<Payment/>}/>
           
 
         </Routes>

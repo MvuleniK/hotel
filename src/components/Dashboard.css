@@ -3,16 +3,25 @@
 
     /* Home Page */
     position: absolute;
-    width: 1440px;
-    height: 900px; 
+    width: 100%;
+    height: auto; 
     /* White */
     /* background-color: blue; */
     align-items: center;
     justify-content: center;
     flex-direction: column;
     display: flex;
+    top:4%;
 
 }
+
+
+.main-container1 .side-navigation { 
+    display: flex;
+    flex-direction: row;
+    top:10%;
+}
+
 
 .main-container1 .side-bar {
     position: absolute;

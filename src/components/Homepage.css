@@ -9,8 +9,10 @@
 
     /* Home Page */
     position: absolute;
-    width: 1444px;
-    height: 2452px; 
+    /* width: 1444px; */
+    /* height: 2452px;  */
+    width: 100%;
+    height: auto;
     /* White */
     background: #FDFFFC;
     align-items: center;
@@ -166,7 +168,7 @@
     align-items: center;
     width: 1239px;
     height: 576px;
-    background-color: #FCB331;
+    /* background-color: #FCB331; */
     /* flex-direction: column; */
 }
 
@@ -398,7 +400,7 @@
     font-family: 'Montserrat', sans-serif;
     width: 1446px;
     height: 616px;
-    background-color:#172121;
+    /* background-color:#172121; */
     top:90%;
     color:#FDFFFC;
     align-items: center;
@@ -406,6 +408,8 @@
     
 }
 
+
+/* 
 .main-container .hotel-footer .grid-container {
 
     display: grid;
@@ -429,14 +433,14 @@
 
 .main-container .hotel-footer .grid-container .upper-hotel-footer-2 ul {
     /* align-content: center;
-    flex-direction: column; */
+    flex-direction: column;
     padding-top: 5px;
     list-style-type: none;
 
 
-}
+}*/
 
-.main-container .hotel-footer .upper-hotel-footer-3{
+/* .main-container .hotel-footer .upper-hotel-footer-3{
 
     padding-top: 5px;
 
@@ -450,7 +454,7 @@
 
 
 
-/* copyright */
+
 
 .main-container .hotel-footer .lower-hotel-footer h5{
     position:absolute;
@@ -461,4 +465,4 @@
     margin-left: 20px;
     font-family: 'Montserrat', sans-serif;
     top: 35rem;
-}
+} */

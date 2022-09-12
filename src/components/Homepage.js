@@ -4,6 +4,7 @@ import Logo from "../assest/Logo.png";
 import Swiper from './swiper/swiper';
 // import { Autoplay } from 'swiper';
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 function Homepage() {
   return (
@@ -16,27 +17,30 @@ function Homepage() {
                 </div>
                 
                 <div  className ='list' >
-                    <Link to= '/homepage'> <h3>Home</h3> </Link>
+                <Link to= '/homepage' style={{ textDecoration: 'none',color: '#484848' }} > <h3>Home</h3> </Link>
                 </div>    
+
+                
                 <div className ='list' >
-                    <Link to ='/roomA'> <h3>Booking</h3> </Link>
+                <Link to ='/roomA' style={{ textDecoration: 'none',color: '#484848'  }} > <h3>Booking</h3> </Link>
                 </div>
                 
                 <div  className ='list' >
-                    <Link to= '/loginuser'><h3>My Account</h3></Link>
+                <Link to= '/loginuser' style={{ textDecoration: 'none',color: '#484848'  }} ><h3>My Account</h3></Link>
                 </div>
+
                 <div  className ='list'  >
                     <h3>Admin</h3>
                 </div>
 
                 <div  className ='list'  >
                     {/* <Link to ='/loginuser' ></Link> */}
-                    <h3 className='button1' id='button1' >Log In</h3>
+                    <Link to= '/loginuser' style={{ textDecoration: 'none',color: '#ffb01d'  }} ><h3 className='button1' id='button1' >Log In</h3></Link>
                 </div>
 
                 <div  className ='list'  >
                 {/* <Link to ='/registeruser' ></Link> */}
-                    <h3 className='button2' id='button2'>Sign Up</h3>
+                    <Link to ='/registeruser' style={{ textDecoration: 'none',color: '#ffb01d'  }}><h3 className='button2' id='button2'>Sign Up</h3></Link>
                 </div>
 
         </div>
@@ -76,7 +80,7 @@ function Homepage() {
             </div>
             <div className='booking-room-suite' >
                     <div className='room1'>
-                    <Link to ='/roomA'>  
+                    <Link to ='/roomA' style={{ textDecoration: 'none',color: 'white'  }}  >  
                         <h5>
                             Luxury room
                         </h5>
@@ -128,7 +132,10 @@ function Homepage() {
         </div>
 
         <div className='hotel-footer '>
-            <div className='grid-container'>
+
+
+            <Footer/>
+            {/* <div className='grid-container'>
 
 
                 <div className='uppper-hotel-footer-1'>
@@ -165,11 +172,11 @@ function Homepage() {
                             <li>FAQs</li>
                     </ul>
                 </div>
-            </div>
+            </div> */}
 
-            <div className='lower-hotel-footer'>
+            {/* <div className='lower-hotel-footer'>
                 <h5>copyright</h5>
-            </div>
+            </div> */}
 
         </div>
 
